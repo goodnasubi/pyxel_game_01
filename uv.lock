@@ -1,0 +1,29 @@
+version = 1
+revision = 3
+requires-python = ">=3.12"
+
+[[package]]
+name = "pyxel"
+version = "2.5.6"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/3a/f3/812891e58e68ab2ab4a68fc762ad49d58f263666eb04437dacfde202989b/pyxel-2.5.6-cp38-abi3-macosx_10_12_x86_64.whl", hash = "sha256:a147fb9bdf2b7eb5f544c80fc41b9ae90c52dad7c0c4d2dbc2086252e1c7ed99", size = 4822885, upload-time = "2025-09-20T04:07:32.377Z" },
+    { url = "https://files.pythonhosted.org/packages/86/53/381d6daa3103453e8323365ef9b1810958d6cfa8130d284dd31903e81266/pyxel-2.5.6-cp38-abi3-macosx_11_0_arm64.whl", hash = "sha256:b994e6160085673ac00c7846d35d27c29331f739b3c37972b476e8bbe05bd32d", size = 4538005, upload-time = "2025-09-20T04:07:34.571Z" },
+    { url = "https://files.pythonhosted.org/packages/e4/d5/d7b7c4a0fead58e9485468bb952c29e8a38507032af51b649d70653a34e2/pyxel-2.5.6-cp38-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:067ed2dc2a0759df92ce029c046b4ad3032615d3087d73040c665f3f3344e623", size = 4251457, upload-time = "2025-09-20T04:07:35.717Z" },
+    { url = "https://files.pythonhosted.org/packages/ed/e2/7d0cc9cf52736f5db288b1b731091e3d1a506ca47b05f52dd76e7766e010/pyxel-2.5.6-cp38-abi3-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:884274bcd7d1c07017dd544737e7b9ad0deee2a7fc612ff5cd5a7b57c67098f7", size = 4250545, upload-time = "2025-09-20T04:07:37.192Z" },
+    { url = "https://files.pythonhosted.org/packages/28/72/f026b5df9b19f650f8a0359aac82ace4e790d2d033ced0600273e2171343/pyxel-2.5.6-cp38-abi3-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:106efb67dc299a33eb0d68dea8ce3da01afe69e971f42a9ab76da225c0bbd45a", size = 4666068, upload-time = "2025-09-20T04:07:38.746Z" },
+    { url = "https://files.pythonhosted.org/packages/8c/69/58426512560db1b08235583de65aa59d945be2c296b6a62c81e8c49876cf/pyxel-2.5.6-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:c6e114be0e82c2bc41f3076f12e52464af5fabbf017e98eff1b5def6fe9b8c82", size = 4426118, upload-time = "2025-09-20T04:07:40.609Z" },
+    { url = "https://files.pythonhosted.org/packages/cd/83/c027a28672bbd6720d0916ccec568b0e58c2da6ce19e250dcef9b783b9e5/pyxel-2.5.6-cp38-abi3-win32.whl", hash = "sha256:c5610a65686695a953bf5b5910e276c2db6204223f0feab4f570118d02a8e7c6", size = 4334808, upload-time = "2025-09-20T04:07:42.049Z" },
+    { url = "https://files.pythonhosted.org/packages/a6/bb/8acbd6e90681d511f4b88ca50a684fd4b900ab318c0c9a2f4ff8d040394c/pyxel-2.5.6-cp38-abi3-win_amd64.whl", hash = "sha256:5936457b442a6d84741b2caefd3a4187465f03dd16799d7de93a19352b9f42a7", size = 4543644, upload-time = "2025-09-20T04:07:43.514Z" },
+]
+
+[[package]]
+name = "pyxel-game-01"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "pyxel" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "pyxel", specifier = ">=2.5.6" }]
