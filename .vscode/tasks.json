@@ -1,0 +1,12 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "uv-run-debug-server",
+            "type": "shell",
+            "command": "uv run python -m debugpy --listen 5678 --wait-for-client ${file}",
+            "isBackground": true,
+            "problemMatcher": []
+        }
+    ]
+}
